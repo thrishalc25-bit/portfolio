@@ -1,4 +1,4 @@
-// Dark/Light Mode Toggle
+
 const toggleButton = document.getElementById("theme-toggle");
 
 if (toggleButton) {
@@ -15,7 +15,7 @@ if (toggleButton) {
   }
 }
 
-// Simple animated text
+
 const animatedText = document.querySelector(".animated-text");
 if (animatedText) {
   const words = ["Thrishal C. Poojary", "a Developer", "a Designer", "a Learner"];
@@ -25,3 +25,4 @@ if (animatedText) {
     i = (i + 1) % words.length;
   }, 2500);
 }
+
